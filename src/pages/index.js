@@ -57,7 +57,7 @@ export default function Home() {
 
         {/* Add and Submit Buttons in a separate row below */}
         <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
-          <button type="button" onClick={handleAddRow}>Add</button>
+        <button type="button" onClick={handleAddRow}>+</button>
           <button type="submit">Submit</button>
         </div>
       </form>
