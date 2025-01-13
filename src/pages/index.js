@@ -76,8 +76,8 @@ export default function Home() {
             <tbody>
               {submittedData.map((row) => (
                 <tr key={row.id}>
-                  <td>{row.inputValue}</td>
-                  <td>{row.selectValue}</td>
+                  <td><h3>{row.inputValue}</h3></td>
+                  <td><h3>{row.selectValue}</h3></td>
                 </tr>
               ))}
             </tbody>
