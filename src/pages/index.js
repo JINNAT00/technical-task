@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Dynamic Form with Validation</h1>
+      <h1>Technical Task of 6sense</h1>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
         
         {/* Form Rows */}
